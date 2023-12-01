@@ -10,17 +10,28 @@ body {
   }
   
   div {
+    display: block;
+    align-items: center;
+    justify-content: center;
     max-width: 1000px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  }
+
+  .senha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 20px;
+    margin-top: 10px;
   }
   
   h2 {
     color: #333;
-    margin-bottom: 16px; /* Add margin-bottom to create space between h2 and label */
+    margin-bottom: 16px;
   }
   
   label {
